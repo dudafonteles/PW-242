@@ -1,0 +1,22 @@
+body{
+    padding: 0;
+    margin:auto;
+    display: flex;
+}
+
+#content { 
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#left {
+    width: 200px;
+    background: blue;
+}
+
+#main {
+    margin-left: 20px;
+    background-color: aqua;
+
+}
