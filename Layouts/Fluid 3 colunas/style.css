@@ -1,0 +1,29 @@
+#links {
+    float: left;
+    width: 22.5%;
+    margin: 0 0 0 2.5%;
+    background-color: burlywood;
+}
+
+#main {
+    float: left;
+    width: 45%;
+    margin: 0 2.5%;
+    background-color: antiquewhite;
+}
+
+#news {
+    float: left;
+    width: 22.5%;
+    margin: 0 2.5% 0 0;
+    background-color: darkslategray;
+}
+
+#footer {
+    clear: left;
+    background-color: blueviolet;
+}
+
+#header {
+    background-color: cadetblue;
+}
