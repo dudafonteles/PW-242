@@ -1,0 +1,54 @@
+/* Estilo da Navbar (barra de navegação) */
+.navbar {
+    background-color: #FF69B4; /* Rosa */
+    padding: 0.5rem 1rem; /* Espaçamento interno (padding) */
+}
+
+/* Centraliza os itens da navbar */
+.navbar-nav {
+    display: flex;
+    justify-content: center; /* Centraliza os links na navbar */
+    width: 100%;
+
+    
+}
+
+/* Estilo para os itens de navegação dentro da navbar */
+.navbar .nav-link {
+    color: rgb(255, 255, 255) !important; /* Define a cor do texto como branco */
+    font-weight: bold; /* Deixa o texto mais destacado */
+    padding: 10px 20px; /* Espaçamento ao redor do texto */
+    text-align: center; /* Centraliza o texto dentro do link */
+}
+
+/* Ajusta o hover da navbar (quando o mouse passa por cima) */
+.navbar .nav-link:hover {
+    color: #FFD700 !important; /* Cor dourada quando passa o mouse */
+}
+
+/* Ajusta as imagens para ficarem do mesmo tamanho */
+.card-img-top {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin: auto;
+    display: block;
+}
+
+/* Ajusta o tamanho do ícone do carrinho */
+.carrinho img {
+    width: 24px;
+    height: 24px;
+}
+
+/* Define um espaçamento entre os elementos */
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Centraliza o preço e adiciona espaçamento */
+.preco {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
